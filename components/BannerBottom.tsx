@@ -5,7 +5,7 @@ import { GoComment } from "react-icons/go";
 
 const BannerBottom = () => {
   return (
-    <div className="max-w-7xl mx-auto flex flex-col gap-10 lg:gap-0 lg:flex-row justify-center items-center h-auto lg:h-60 bg-bgColor text-white py-10 px-8 -mt-20 z-50">
+    <div className="max-w-7xl mx-auto flex flex-col gap-10 lg:gap-0 lg:flex-row justify-center items-center h-auto lg:h-60 bg-blue-300 py-10 px-8 -mt-20 z-50">
       <div className="w-full lg:w-[60%] flex flex-col gap-3">
         <p className="text-sm uppercase font-bodyFont font-semibold text-white/50">
           My Blog

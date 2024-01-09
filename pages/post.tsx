@@ -26,15 +26,6 @@ export default function Home({ posts }: Props) {
       <main className="font-bodyFont">
         {/* ============ Header Start here ============ */}
         <Header />
-        {/* ============ Header End here ============== */}
-
-        {/* ============ Banner Start here ============ */}
-        <Banner />
-        {/* ============ Banner End here ============== */}
-
-        <div className="max-w-7xl mx-auto h-60 relative">
-          <BannerBottom />
-        </div>
 
         {/* ============ Post Part Start here ========== */}
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:gid-cols-2 lg:grid-cols-3 gap-3 md:gap-6 py-6 px-4">
