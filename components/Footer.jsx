@@ -12,7 +12,7 @@ import { AiOutlineCopyrightCircle } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <div className=" w-full py-10 bg-bgColor bg-black px-4">
+    <div className=" w-full py-10 bg-black px-4">
       <div className=" max-w-7xl mx-auto flex flex-col md:flex-row gap-4 justify-center items-center md:justify-between">
         <div className="flex items-center gap-3">
           <Image src={logoLight} width={80} height={80} alt="logo" />
