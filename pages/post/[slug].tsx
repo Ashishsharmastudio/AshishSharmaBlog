@@ -1,16 +1,11 @@
 import React, { useState } from "react";
 import Footer from "../../components/Footer";
-import Header from "../../components/Header";
-// import { useRouter } from 'next/router';
+import Header from "../../components/Header";   
 import { sanityClient, urlFor } from "../../sanity";
 import { Post } from "../../typing";
 import { GetStaticProps } from "next";
-// import Link from 'next/link';
-// import { PortableText } from "@portabletext/react";
 import PortableText from "react-portable-text";
 import { useForm, SubmitHandler } from "react-hook-form";
-// import comment from "../../personalblog/schemas/comment";
-// import post from "../../personalblog/schemas/post";
 import { useSession } from "next-auth/react";
 
 
