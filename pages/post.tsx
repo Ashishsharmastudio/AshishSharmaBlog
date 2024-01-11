@@ -5,7 +5,7 @@ import BannerBottom from "../components/BannerBottom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { sanityClient, urlFor } from "../sanity";
-import { Post } from "../personalblog/typing";
+import { Post } from "../typing";
 import Link from "next/link";
 import { useForm, SubmitHandler } from "react-hook-form";
 
