@@ -46,7 +46,7 @@ const Header = () => {
                   ? session.user.image
                   : "https://www.noormohammad.live/static/media/roundedProfile.477a194221d255c8ce26.png"
               }
-              alt="logo"
+              alt="logos"
             />
             <p className="text-sm font-semibold text-slate-600	">
             {session?.user?.name || 'Hello Stranger'} 
