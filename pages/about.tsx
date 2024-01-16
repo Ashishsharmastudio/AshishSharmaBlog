@@ -5,7 +5,8 @@ import Head from "next/head";
 const About = () => {
   return (
     <div>
-      <Head>
+      {/* headder file */}
+      <Head> 
         <title>Ashish Blog | About Us</title>
         <link rel="icon" href="/smallLogo.jpg" />
         <meta
