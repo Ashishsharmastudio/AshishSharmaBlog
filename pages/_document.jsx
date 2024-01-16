@@ -7,7 +7,7 @@ export default function Document() {
         {/* Google Search Console */}
         <meta
          name="google-site-verification"
-         contect="google-site-verification: google43ef5e51dd2930b5.html"
+         contect="google43ef5e51dd2930b5.html"
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
