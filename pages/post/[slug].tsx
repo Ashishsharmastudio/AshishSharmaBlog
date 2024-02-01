@@ -7,6 +7,7 @@ import { GetStaticProps } from "next";
 import PortableText from "react-portable-text";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { useSession } from "next-auth/react";
+import Head from "next/head"
 
 
 
@@ -64,7 +65,17 @@ const Post = ({ post }: Props) => {
     }
 
     return (
+        
         <div>
+        <Head>
+        <title>Ashish sharma | Blog</title>
+        {/* <link rel="icon" href="/smallLogo.jpg" /> */}
+        <meta name="description" content={post.description} />
+        <meta name="keywords" content={post.title} />
+        <meta name="author" content={post.author.name}/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
+
             <Header />
             {/* MAIN IMAGE */}
             <img className="w-full h-96 object-cover" src={urlFor(post.mainImage).url()!} alt="coverImage" />

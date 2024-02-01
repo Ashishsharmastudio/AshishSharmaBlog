@@ -1,7 +1,7 @@
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
-  let GTM_ID = process.env.NEXT_PUBLIC_GTM_ID;
+  let GTM_ID = process.env.NEXT_PUBLIC_GTMhost_ID;
 
   return (
     <Html lang="en">
