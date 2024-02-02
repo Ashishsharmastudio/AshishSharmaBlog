@@ -10,7 +10,7 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white border-b border-gray-200">
+    <header className="bg-white  border-gray-200">
 
       <div id="navdiv" className="flex items-center  px-4 py-3 max-w-7xl mx-auto">
 
@@ -26,11 +26,11 @@ const Header = () => {
         <div className="flex items-center ml-auto space-x-4">
 
           {/* Desktop menu */}
-          <nav className="hidden md:block  space-x-8">
-            <Link href="/">Home</Link>
-            <Link href={`/post`}>Posts</Link>
-            <Link href="/about">About</Link>
-            <Link href="/contact">Contact</Link>
+          <nav className="hover: hidden md:block  space-x-8">
+            <Link className="uppercase text-xs text-slate-600 border-[1px]  hover:border-secondaryColor px-4 py-1 font-semibold hover:text-white rounded-md hover:bg-secondaryColor transition-all duration-300 active:bg-yellow-600" href="/">Home</Link>
+            <Link className="uppercase text-xs text-slate-600 border-[1px]  hover:border-secondaryColor px-4 py-1 font-semibold hover:text-white rounded-md hover:bg-secondaryColor transition-all duration-300 active:bg-yellow-600" href={`/post`}>Posts</Link>
+            <Link className="uppercase text-xs text-slate-600 border-[1px]  hover:border-secondaryColor px-4 py-1 font-semibold hover:text-white rounded-md hover:bg-secondaryColor transition-all duration-300 active:bg-yellow-600" href="/about">About</Link>
+            <Link className="uppercase text-xs text-slate-600 border-[1px]  hover:border-secondaryColor px-4 py-1 font-semibold hover:text-white rounded-md hover:bg-secondaryColor transition-all duration-300 active:bg-yellow-600" href="/contact">Contact</Link>
           </nav>
 
 
