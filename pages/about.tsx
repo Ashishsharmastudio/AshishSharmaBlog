@@ -1,12 +1,13 @@
+import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Head from "next/head";
+import Head from 'next/head';
 
 const About = () => {
   return (
     <div>
-      {/* headder file  added*/}
-      <Head> 
+      {/* Header file added */}
+      <Head>
         <title>Ashish Blog | About Us</title>
         <link rel="icon" href="/smallLogo.jpg" />
         <meta

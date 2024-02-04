@@ -21,13 +21,13 @@ const Footer = () => {
           {/* Logo Image */}
           {/* Assume 'logoLight' is declared as an imported variable */}
           <Link href="/">
-          <Image
-            src={logoDark}
-            width={80}
-            height={80}
-            alt="Logo"
-          />
-        </Link>
+            <Image
+              src={logoDark}
+              width={80}
+              height={80}
+              alt="Logo"
+            />
+          </Link>
           {/* Copyright text */}
           <p className="flex items-center text-xs md:text-sm font-titleFont gap-1">
             <AiOutlineCopyrightCircle className="mt-[1px]" />
@@ -38,7 +38,7 @@ const Footer = () => {
         {/* Social Icons */}
         <div className="flex gap-6">
           <a target="_blank" href="https://www.behance.net/AshishSharma825">
-            <FaSquarespace className="w-6 h-6 text-white/50 hover:text-white duration-300 cursor-pointer" />
+            <BehanceIcon className="w-6 h-6 text-white/50 hover:text-white duration-300 cursor-pointer" />
           </a>
           <a target="_blank" href="https://www.fiverr.com/ashishsharma2/">
             <TbBrandFiverr className="w-6 h-6 text-white/50 hover:text-white duration-300 cursor-pointer" />
