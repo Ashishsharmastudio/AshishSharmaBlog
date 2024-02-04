@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Footer.jsx", "components/Banner.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Footer.tsx", "components/Banner.jsx"],
   "exclude": ["node_modules"]
 }
