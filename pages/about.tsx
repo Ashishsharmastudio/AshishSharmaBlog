@@ -6,79 +6,61 @@ import Head from 'next/head';
 const About = () => {
   return (
     <div>
-      {/* Header file added */}
       <Head>
-        <title>Ashish Blog | About Us</title>
-        <link rel="icon" href="/smallLogo.jpg" />
-        <meta
-          name="description"
-          content="Ashish Sharma Blog is run by a team of knowledgeable tech enthusiasts who provide unbiased reviews and advice. Learn more about our experienced editors and tech experts."
-        />
-        <meta
-          name="keywords"
-          content="Ashish Sharma Blog, tech reviews, electronics, gadgets, technology, editors, authors, writers, tech enthusiasts, experts, about us, buy a phone, Buy a laptop, best suggestion in a smartphone, best affordable price phone buy, buy gaming pc"
-        />
-        <meta name="author" content="Ashish Sharma" />
-        <meta name="language" content="English" />
+        <meta charSet="utf-8" />
+        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+        <title>About Web Developer Ashish Sharma</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" type="image/x-icon" href="https://rahuljha.dev/assets/avator/favicon.png" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
       </Head>
 
       <Header />
 
-      <div className="w-full mx-auto p-5 bg-secondaryColor/10">
-        <h1 className="text-black text-5xl font-bold m-8">About Us</h1>
-        <h3 className="ml-8 text-lg">
-          Ashish Sharma Blog is dedicated to helping tech users of all experience levels get more from the hardware and software that's central to a PC-centric universe. We focus on:
-          <ul>
-            <li>Mainstream PCs</li>
-            <li>Gaming PCs and accessories, graphics cards, and PC games</li>
-            <li>The latest chips from Intel, AMD, and Nvidia</li>
-            <li>WiFi routers, SSDs, keyboards, mice, and other PC components and accessories</li>
-            <li>Windows, Office, and other essential PC apps and utilities, from productivity to security</li>
-          </ul>
-          Ashish Sharma Blog also covers all things Android, the one mobile ecosystem that's deep and customizable—just like a PC. With incredible product knowledge built from years covering the consumer tech industry, PCWorld is uniquely positioned to tell savvy users what to buy and how to get more from their purchases.
-        </h3>
-        <h2 className="text-black text-3xl font-bold m-8">Affiliate Disclosures</h2>
-        <span className="text-gray-600 ml-8 font-bold">FTC Disclosure Compliance Rules</span>
-        <p className="ml-8 text-lg mb-3">
-          In 2015, the Federal Trade Commission released their new rules for Disclosure Compliance.
-        </p>
-        <p className="ml-8 text-lg mb-3">
-          These rules are set in place to ensure that readers or viewers of web media are aware if the blogger or publisher is sponsored, endorsed, or partnered with a different company. The readers need to know if the content publisher is making money by sharing a link or product.
-        </p>
-        <p className="ml-8 text-lg mb-3">
-          In compliance with the FTC guidelines, please assume the following about links and posts on Ashish Sharma Blog.in:
-        </p>
-        <p className="ml-8 text-lg mb-3">
-          Any/all of the links on Ashish Sharma Blog.in are affiliate links for which I receive small compensation from sales of certain items.
-        </p>
-        <h2 className="text-black text-3xl font-bold m-8">What Are Affiliate Links?</h2>
-        <p className="ml-8 text-lg mb-3">
-          Purchases are made on external affiliate company websites: when a reader clicks on an affiliate link located on techblogservice.com to purchase an item, the reader buys the item from the seller directly (not from Ashish Sharma Blog).
-        </p>
-        <p className="ml-8 text-lg mb-3">
-          Amazon and/or other companies pay Ashish Sharma Blog a small commission or other compensation for helping to bring customers to their website.
-        </p>
-        <p className="ml-8 text-lg mb-3">
-          Prices are exactly the same for readers whether the purchase is through an affiliate link or a non-affiliate link. Clicking an affiliate link and clicking a non-affiliate link does not change the price or anything else for the visitor.
-        </p>
-        <p className="text-gray-600 ml-8 font-bold">Ashish Sharma Blog uses two main types of affiliate programs:</p>
-        <h3 className="text-black ml-8 font-bold mt-5">1. Amazon affiliate links.</h3>
-        <p className="ml-8 text-lg mb-3">
-          techblogservice.com is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for website owners to earn fees by linking to Amazon.in and affiliated sites, as well as to other websites that may be affiliated with Amazon Service LLC Associates Program.
-        </p>
-        <h3 className="text-black ml-8 font-bold mt-5">2. Product affiliate links.</h3>
-        <p className="ml-8 text-lg mb-3">
-          If you click a product affiliate link and buy the product, then I will get a percentage of the sale or some other type of compensation.
-        </p>
-        <p className="ml-8 text-lg mb-3">
-          Again, prices are not different if you use these affiliate links. You will not pay more by clicking through to the link. These links are not “pay per click.”
-        </p>
-        <span className="text-gray-600 ml-8 font-bold">What about sponsored content?</span>
-        <p className="ml-8 text-lg mb-3">
-          I do not write sponsored posts. I want to provide authentic, unbiased information. However, if a company would like to publish sponsored content on Ashish Sharma Blog, I will disclose this clearly at the beginning of the post. The bottom line is that I only recommend products I use myself or that I would recommend to family and friends.
-        </p>
-        <p className="text-gray-600 ml-8 font-bold">Your purchase helps support my research efforts. Thank you very, very much! I appreciate you!</p>
-      </div>
+      <main className="bg-gray-100 min-h-screen flex items-center justify-center">
+        <div className="container mx-auto p-8 bg-white rounded-md shadow-lg md:w-3/4 lg:w-2/3 xl:w-1/2">
+          <div className="flex flex-col md:flex-row">
+            <div className="w-full md:w-1/2 mb-8 md:mb-0">
+              <img
+                src="/ashish.JPG"
+                alt="Ashish Sharma"
+                className="rounded-md shadow-md w-full h-auto"
+              />
+            </div>
+            <div className="w-full md:w-1/2 md:pl-8">
+              <h2 className="text-4xl font-bold mb-4">Welcome to My World of Web Development</h2>
+              <div className="md:block hidden">
+                <p className="text-gray-700 mb-4 py-4">
+                  Hi there! I'm Ashish Sharma, a passionate web developer with a keen eye for design and a love for creating beautiful, functional websites and applications.
+                </p>
+              </div>
+              <div className="hidden md:block mb-4">
+                <p className="text-gray-700 mb-4 py-4">
+                  Currently pursuing B.Tech in Computer Science from Abdul Kalam Technical University, I combine technical expertise with creative flair to deliver outstanding digital solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
+            <div className="bg-blue-100 p-6 rounded-md shadow-md text-center">
+              <h3 className="text-2xl font-bold">4+</h3>
+              <p className="text-gray-600">Years of Experience</p>
+            </div>
+            <div className="bg-blue-100 p-6 rounded-md shadow-md text-center">
+              <h3 className="text-2xl font-bold">10+</h3>
+              <p className="text-gray-600">Projects Completed</p>
+            </div>
+            <div className="bg-blue-100 p-6 rounded-md shadow-md text-center">
+              <h3 className="text-2xl font-bold">95%</h3>
+              <p className="text-gray-600">Client Satisfaction</p>
+            </div>
+            <div className="bg-blue-100 p-6 rounded-md shadow-md text-center">
+              <h3 className="text-2xl font-bold">B.Tech Pursuer</h3>
+              <p className="text-gray-600">Computer Science</p>
+            </div>
+          </div>
+        </div>
+      </main>
 
       <Footer />
     </div>
