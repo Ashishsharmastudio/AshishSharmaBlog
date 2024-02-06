@@ -17,20 +17,16 @@ const About = () => {
       <main className="bg-gray-100 min-h-screen flex items-center justify-center">
         <div className="container mx-auto p-8 bg-white rounded-md shadow-lg">
           <div className="flex flex-col md:flex-row">
-            <div className="w-full md:w-1/2 mb-8 md:mb-0 order-2 md:order-1">
+            <div className="w-full md:w-1/2 mb-8 md:mb-0">
               <img
-                src="/ashish.jpg"
+                src="/ashish.JPG"
                 alt="Ashish Sharma"
                 className="rounded-md shadow-md w-full h-auto"
               />
             </div>
-            <div className="w-full md:w-1/2 md:pl-8 order-1 md:order-2">
+            <div className="w-full md:w-1/2 md:pl-8">
               <h2 className="text-4xl font-bold mb-4">Welcome to My World of Web Development</h2>
-              {/* 
-                Adjusted margin and padding for better spacing in mobile view
-                Made paragraph visible in mobile view
-              */}
-              <p className="text-gray-700 mb-4 md:py-16 py-4">
+              <p className="text-gray-700 mb-4 py-16">
                 Hi there! I'm Ashish Sharma, a passionate web developer with a keen eye for design and a love for creating beautiful, functional websites and applications.
               </p>
               <p className="text-gray-700 mb-4">
