@@ -5,6 +5,9 @@ import { FaChevronLeft, FaChevronRight,} from "react-icons/fa";
 import bannerImgOne from "../public/images/bannerImgOne.jpg";
 import bannerImgTwo from "../public/images/bannerImgTwo.jpg";
 import bannerImgThree from "../public/images/bannerImgThree.jpg";
+import bannerImgFour from "../public/images/IMG_7568.JPG";
+import bannerImgFive from "../public/images/IMG_7567.JPG";
+import bannerImgSix from "../public/images/IMG_7565.JPG";
 
 
 
@@ -65,6 +68,22 @@ const Banner = () => {
   return (
     <div className="w-full h-auto md:h-[650px] relative">
       <Slider {...settings}>
+      <div>
+          <Image
+            className="w-full h-auto md:h-[650px] object-cover"
+            src={bannerImgFive}
+            loading={"lazy"}
+            alt="bannerImgFour"
+          />
+        </div>
+        <div>
+          <Image
+            className="w-full h-auto md:h-[650px] object-cover"
+            src={bannerImgSix}
+            loading={"lazy"}
+            alt="bannerImgSix"
+          />
+        </div>
         <div>
           <Image
             className="w-full h-auto md:h-[650px] object-cover"
@@ -89,6 +108,22 @@ const Banner = () => {
             alt="bannerImgThree"
           />
         </div>
+        <div>
+          <Image
+            className="w-full h-auto md:h-[650px] object-cover"
+            src={bannerImgFour}
+            loading={"lazy"}
+            alt="bannerImgFour"
+          />
+        </div>
+        {/* <div>
+          <Image
+            className="w-full h-auto md:h-[650px] object-cover"
+            src={bannerImgFive}
+            loading={"lazy"}
+            alt="bannerImgFour"
+          />
+        </div> */}
         
       </Slider>
     </div>
