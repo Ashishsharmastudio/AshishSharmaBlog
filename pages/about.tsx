@@ -11,8 +11,6 @@ const About = () => {
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <title>About Web Developer Ashish Sharma</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="shortcut icon" type="image/x-icon" href="https://rahuljha.dev/assets/avator/favicon.png" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
       </Head>
 
       <Header />
@@ -22,7 +20,7 @@ const About = () => {
           <div className="flex flex-col md:flex-row">
             <div className="w-full md:w-1/2 mb-8 md:mb-0">
               <img
-                src="/ashish.JPG"
+                src="/ashu.jpg"
                 alt="Ashish Sharma"
                 className="rounded-md shadow-md w-full h-auto"
               />
