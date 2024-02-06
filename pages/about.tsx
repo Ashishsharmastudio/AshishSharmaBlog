@@ -19,7 +19,7 @@ const About = () => {
           <div className="flex flex-col md:flex-row">
             <div className="w-full md:w-1/2 mb-8 md:mb-0">
               <img
-                src="/ashu.JPG"
+                src="/man.png"
                 alt="MR.Ashish Sharma"
                 className="rounded-md shadow-md w-full h-auto"
               />
