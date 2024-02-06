@@ -20,7 +20,7 @@ const About = () => {
             <div className="w-full md:w-1/2 mb-8 md:mb-0">
               <img
                 src="/man.png"
-                alt="MR.Ashish Sharma"
+                alt="Ashish Sharma"
                 className="rounded-md shadow-md w-full h-auto"
               />
             </div>
