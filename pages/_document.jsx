@@ -64,6 +64,12 @@ export default function Document() {
             `,
           }}
         />
+         {/* Google AdSense Script */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6040631928045870"
+          crossOrigin="anonymous"
+        />
         {/* Google Search Console */}
         <meta
           name="google-site-verification"
